@@ -1,0 +1,198 @@
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: 'Kranky', cursive;
+  text-align: center;
+  padding-top: 30px;
+  color: #803CD6;
+}
+p{
+  padding-left: 150px;
+  padding-right:150px;
+  text-align: center;
+}
+
+.topnav{
+  font-family: 'Kranky', cursive;
+  font-size: 40px;
+  background-color: white;
+}
+
+.topnav a {
+  padding-left: 20px;
+  color: #009999;
+}
+
+.topnav a:hover {
+  color: #803CD6;
+  cursor: pointer
+}
+
+.topnav a.active {
+  font-weight: bold;
+}
+
+.block1, .block2, .block3, .block4 {
+  height: auto;
+  background-color: white;
+}
+
+
+.parallax {
+  /* The image used */
+  background-image: url("violet.jpg");
+  /* Set a specific height */
+  min-height: 450px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax2 {
+  /* The image used */
+  background-image: url("white.jpg");
+  /* Set a specific height */
+  min-height: 400px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax3 {
+  /* The image used */
+  background-image: url("pink.jpg");
+  /* Set a specific height */
+  min-height: 400px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  /* The image used */
+  background-image: url("hotpink.jpg");
+  /* Set a specific height */
+  min-height: 400px;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.col-lg-6 {
+  background-color: white;
+  border-style: solid;
+  border-width: 40px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,.5);
+  transition: 0.3s;
+  padding-bottom: 20px;
+  color: #803CD6;
+  font-family: 'Roboto', sans-serif;
+}
+img {
+  border-radius: 20px 20px 20px 20px;
+}
+.row {
+  color: white;
+  text-align: center;
+  padding-top: 50px
+}
+
+input[type=text], textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+input[type=submit] {
+  background-color: #009999;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+input[type=submit]:hover {
+  background-color: #803CD6;
+}
+
+.container {
+  border-radius: 15px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  border: solid 3px #803CD6;
+}
+
+.footer {
+  padding-top: 20px;
+  position: static;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: white;
+  color: #803CD6;
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Kranky', cursive;
+}
+.footer a:hover {
+  color: #803CD6;
+  cursor: pointer
+}
+.left {
+  float: right;
+  padding-right: 20px;
+}
+.fa:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.block3 img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 250px;
+}
+.block3 a {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.block3 img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+.block3 {
+  padding-bottom: 20px;
+}
+.container-skill {
+  width: 100%;
+  background-color: white;
+  color: #803CD6;
+  text-align: left;
+  padding: 5px;
+  padding-bottom: 20px;
+}
+.skills {
+  text-align: right;
+  padding: 10px;
+  color: white;
+  padding-bottom: 20px;
+}
+.html {width: 90%; background-color: #4CAF50;}
+.css {width: 80%; background-color: #2196F3;}
+.js {width: 65%; background-color: #f44336;}
+.php {width: 60%; background-color: #808080;}
